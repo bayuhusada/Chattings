@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+&.owner{
+  flex-direction: row-reverse;
+
+  p{
+    background-color: #D20062;
+    color: white;
+    border-radius: 10px 0px 10px 10px;
+  }
+}
